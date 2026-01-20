@@ -1,0 +1,219 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+* {
+  font-family: "Lato", sans-serif;
+}
+
+
+a{
+     text-decoration: none;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 72px;
+    background-color: white;
+    box-shadow: 0 4px 6px -1px var(--tw-shadow-color,#0000001a),0 2px 4px -2px var(--tw-shadow-color,#0000001a);
+    padding-left: 116px;
+    padding-right: 116px;
+}
+
+.leftside{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.logo{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: #001049;
+}
+
+.x{
+    color: red;
+}
+
+.nav {
+  display: flex;
+  gap: 32px;
+}
+
+.nav a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #0b1c4d;
+}
+
+
+.rightside{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.search-input {
+  border: none;
+  outline: none;
+  box-shadow: none;
+  width: 100%;
+  font-size: 14px;
+}
+
+.searchbar{
+    width: 220px;
+    height: 36px;
+    border: 1px solid #cbd5e1;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 0 12px;
+
+}
+.searchbar:focus-within {
+  box-shadow: 0 0 0 3px #6b7280;
+}
+
+.search-icon {
+  width: 18px;
+  height: 18px;
+  stroke: #64748b;
+  stroke-width: 2;
+  fill: none;
+}
+
+.signup {
+  height: 36px;
+  padding: 0 20px;
+  border-radius: 12px;
+  background: #fff;
+  border: 1px solid #bfc7d9;
+  cursor: pointer;
+}
+.signup:hover{
+    background-color: #f9f9f9;
+}
+
+.login {
+  height: 36px;
+  padding: 0 20px;
+  border-radius: 12px;
+  background: #001a57;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+.login:hover{
+    background-color: #00267f;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 14px;
+  border: 1px dashed #cbd5e1;
+  border-radius: 999px;
+  font-size: 14px;
+}
+
+.badge .dot {
+  width: 10px;
+  height: 10px;
+  background: #14b8a6;
+  border-radius: 50%;
+}
+
+.hero {
+  padding: 110px 0;
+}
+
+.container {
+  max-width: 1270px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  align-items: center;
+  gap: 60px;
+}
+.hero-content h1 {
+  font-size: 56px;
+  line-height: 1.1;
+  color: #001a57;
+  margin: 24px 0;
+
+}
+
+.hero-content p {
+  font-size: 18px;
+  color: #475569;
+  max-width: 520px;
+}
+.leftside-hero{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    width: 592px;
+}
+
+h1{
+  font-size: 72px;
+  font-weight: 700;
+  color: #001959;
+}
+
+p{
+  font-size: 16px;
+  color: #4d667f;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.herobtn{
+  display: flex;
+  gap: 16px;
+}
+.Learn-more{
+  width: 130px;
+  height: 50px;
+  padding: 0 20px;
+  border-radius: 12px;
+  background-color: white;
+  border: 1px solid #bfc7d9;
+  cursor: pointer;
+}
+.Learn-more:hover{
+  background-color: #f9f9f9;
+}
+
+.Explore-Courses{
+  width: 147px;
+  height: 48px;
+  border-radius: 12px;
+  background-color: #001959;
+  cursor: pointer;
+  color: white;
+  border: none;
+}
+.Explore-Courses:hover{
+    background-color: #00267f;
+}
+
+
+.hero-image{
+  width: 540px;
+  height: 478px;
+}
